@@ -1,4 +1,4 @@
 // This is just a dummy SDL header in case someone includes it
 #pragma once
 
-void SDL_Log(...);
+inline void SDL_Log(...) {}
