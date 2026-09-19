@@ -12,9 +12,6 @@
 #include "Actor.h"
 #include "CollisionComponent.h"
 
-// Skip over SDL logs completely
-void SDL_Log(...) {}
-
 Actor MakeActor(const Vector2& pos, float scale)
 {
 	Actor a;
